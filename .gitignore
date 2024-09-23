@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+.pnpm-debug.log*
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Static files
+public/static/
+
+# Testing
+coverage/
+.nyc_output/
+cypress/screenshots/
+cypress/videos/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.DS_Store
+
+# MacOS
+.DS_Store
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Lint and formatting files
+.eslintcache
+
+# Miscellaneous
+*.log
+*.lock
+npm-debug.log*
+yarn-debug.log*
